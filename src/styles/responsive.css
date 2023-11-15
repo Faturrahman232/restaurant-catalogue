@@ -1,0 +1,157 @@
+.restaurants {
+    display: grid;
+    grid-row-gap: 50px;
+  }
+  
+  @media screen and (max-width: 499px) {
+    .nav {
+      z-index: 10;
+      background-color: #fff;
+      width: 300px;
+      position: absolute;
+  
+      -webkit-transform: translate(-300px, 0);
+      transform: translate(-300px, 0);
+  
+      transition: transform 0.3s ease;
+    }
+  
+    .open {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+  
+    .nav__item {
+      display: list-item;
+      border-bottom: 1px solid #e0e0e0;
+      width: 100%;
+      text-align: left;
+    }
+
+    .headline {
+      margin: 15px;
+    }
+
+    .headline__title {
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;;
+    }
+  }
+  
+  @media screen and (min-width: 455px) {
+    .headline__content {
+      padding: 16px 16px;
+    }
+  
+    .headline__title {
+      font-size: 28px;
+    }
+  
+    .headline__description {
+      font-size: 16px;
+    }
+
+    .explore-title {
+      font-size: 35px;
+    }
+  }
+  
+  @media screen and (min-width: 500px) {
+    .header__menu {
+      display: none;
+    }
+
+    .headline {
+      margin: 15px;
+    }
+  }
+  
+  @media screen and (min-width: 650px) {
+    .headline__content {
+      margin: 0 auto;
+      max-width: 650px;
+    }
+  
+    .post-item__content {
+      padding: 16px 32px 32px 32px;
+    }
+  
+    .post-item__title {
+      font-size: 18px;
+    }
+  
+    .post-item__description {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (min-width: 700px) {
+    .restaurants {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 18px;
+      grid-row-gap: 20px;
+    }
+
+  }
+  
+  @media screen and (min-width: 800px) {
+    .nav__list {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .headline {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    .headline {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .headline__content {
+      padding: 16px 32px;
+    }
+  
+    .restaurants {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    main {
+      max-width: 1200px;
+    }
+  }
+
+  @media screen and (max-width: 660px) {
+    .detail-card1 {
+      width: 80%;
+      overflow: hidden;
+      margin: auto;
+    }
+  
+    .detail-name {
+      font-size: 32px;
+    }
+    
+    .detail-categories {
+      font-size: 20px;
+    }
+  
+    .detail-city {
+      font-size: 21px;
+    }
+  
+    .detail-thumb {
+      width: 90%;
+      padding: 0px;
+      border-radius: 48em;
+    }
+  }

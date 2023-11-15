@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="kumpulan cabang yang dimiliki oleh Baralah Café">
+  <meta name="theme-color" content="#898989"/>
+  
+  <link rel="manifest" href="./app.webmanifest"> 
+  <link rel="icon" href="./favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- <script src="https://use.fontawesome.com/b070c8f1df.js"></script>   -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+  <title>Baralah Blog</title>
+  <link rel="stylesheet" href="text/css">
+</head>
+
+<body>
+  <a href="#maincontent" class="skip-link">skip to our main content</a>
+  <header class="header">
+    <div class="header__inner">
+      <h1 class="header__title">Baralah Café</h1>
+    </div>
+    <button id="menu" class="header__menu" href="#">☰</button>
+    
+    <nav id="drawer" class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="/">Home</a></li>
+        <li class="nav__item"><a href="#/favorite">Favorite</a></li>
+        <li class="nav__item"><a href="https://github.com/Faturrahman232" target="_blank" rel="noreferrer noopener">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div class="hero__inner">
+      <h2 class="hero__title">The Coffee Explorer: Discovering Hidden Cafes</h2>
+      <p class="hero__tagline">
+        <b>"Embark on a Java Journey to Uncover the City's Best Kept Coffee Secrets. Explore, Sip, and Savor the Hidden Gems of Cafe Culture."</b>
+      </p>
+    </div>
+  </div>
+
+  <article class="headline">
+    <figure class="headline__figure">
+      <!-- <img src="../images/hero-image_1.jpg" alt="a man who is cooking"> -->
+      <picture>
+        <source media="(max-width: 600px)" srcset="./images/hero-image_1-small.jpg" type="image/jpeg">
+        <source media="(min-width: 601px)" srcset="./images/hero-image_1-large.jpg" type="image/jpeg">
+        <img src="./images/hero-image_1-large.jpg" alt="hero-image_1" />
+      </picture>
+
+      <figcaption>Salah satu Chef terbaik di Baralah cafe</figcaption>
+    </figure>
+    <div class="headline__content">
+      <h2 class="headline__title">"Cafe di Setiap Sudut: Kisah Barista yang Mewujudkan Impiannya di Indonesia"</h2>
+      <p class="headline__description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eum
+        facere nostrum officiis qui quidem ratione similique, soluta veniam
+        voluptatum. Accusantium ad amet asperiores, aut commodi corporis dicta
+        distinctio ducimus expedita itaque laudantium magnam maiores, nobis
+        obcaecati officiis provident quasi qui quos repellat rerum saepe sint soluta
+        veniam vero vitae, voluptas voluptate voluptatem. Esse nobis non nulla optio
+        vero. Laudantium!
+      </p>
+    </div>
+  </article>
+
+  <section id="content" tabindex="0">
+    <main id="mainContent"></main>
+  </section>
+
+  <footer>
+    <p>Baralah Blog by Faturrahman&#169; 2023, Dicoding Academy</p>
+  </footer>
+
+</body>
+</html>
+
+
